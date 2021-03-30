@@ -19,12 +19,13 @@
     "compile": "npm run clear && npm run microbundle",
     "check:ts": "tsc --noEmit --pretty",
     "check:ts:watch": "npm run check:ts -- --watch",
-    "release": "standard-version"
+    "release": "standard-version",
+    "np": "./scripts/publish.sh"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged && npm test",
-      "prepare-commit-msg": "devmoji -e --lint",
+      "prepare-commit-msg": "npx devmoji -e --lint",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
