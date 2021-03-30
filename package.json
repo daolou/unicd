@@ -1,6 +1,6 @@
 {
   "name": "unicode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "en/de unicode(unicode 与 utf 字符串转换)",
   "keywords": [
     "unicode",
