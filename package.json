@@ -1,5 +1,5 @@
 {
-  "name": "unicode",
+  "name": "unicd",
   "version": "1.0.1",
   "description": "en/de unicode(unicode 与 utf 字符串转换)",
   "keywords": [
@@ -10,13 +10,13 @@
     "js",
     "javascript"
   ],
-  "homepage": "https://github.com/daolou/unicode#readme",
+  "homepage": "https://github.com/daolou/unicd#readme",
   "bugs": {
-    "url": "https://github.com/daolou/unicode/issues"
+    "url": "https://github.com/daolou/unicd/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daolou/unicode.git"
+    "url": "git+https://github.com/daolou/unicd.git"
   },
   "license": "MIT",
   "author": "jiangzhiguo2010",
@@ -34,7 +34,7 @@
     "test": "jest --coverage",
     "codecov": "codecov",
     "clear": "rimraf dist",
-    "microbundle": "microbundle build --globals unicode=Unicode --name unicode --tsconfig ./tsconfig.build.json",
+    "microbundle": "microbundle build --globals unicd=Unicd --name unicd --tsconfig ./tsconfig.build.json",
     "compile": "npm run clear && npm run microbundle",
     "check:ts": "tsc --noEmit --pretty",
     "check:ts:watch": "npm run check:ts -- --watch",

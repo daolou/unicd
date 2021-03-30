@@ -1,6 +1,6 @@
 # unicode
 
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/daolou/unicode/main.svg?style=flat-square)](https://codecov.io/gh/daolou/unicode)[![Build Status](https://www.travis-ci.org/daolou/unicode.svg?branch=main)](https://www.travis-ci.org/daolou/unicode)![GitHub All Releases](https://img.shields.io/github/downloads/daolou/unicode/total)![NPM](https://img.shields.io/npm/l/unicode)
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/daolou/unicd/main.svg?style=flat-square)](https://codecov.io/gh/daolou/unicd)[![Build Status](https://www.travis-ci.org/daolou/unicd.svg?branch=main)](https://www.travis-ci.org/daolou/unicd)![GitHub All Releases](https://img.shields.io/github/downloads/daolou/unicd/total)![NPM](https://img.shields.io/npm/l/unicd)
 
 en/de unicode(unicode 与 utf 字符串转换)
 
@@ -22,19 +22,19 @@ en/de unicode(unicode 与 utf 字符串转换)
 1️⃣ Install
 
 ```bash
-$ npm i --save-dev unicode
+$ npm i --save-dev unicd
 ```
 
 2️⃣ Use
 
 ```js
-import unicode from 'unicode';
-// or const unicode = require('unicode');
+import unicd from 'unicd';
+// or const unicd = require('unicd');
 
-unicode.de('\ud83d\udc4d'); // 👍
-unicode.de('\u597d'); // 好
-unicode.en('👍'); // \ud83d\udc4d
-unicode.en('好'); // \u597d
+unicd.de('\ud83d\udc4d'); // 👍
+unicd.de('\u597d'); // 好
+unicd.en('👍'); // \ud83d\udc4d
+unicd.en('好'); // \u597d
 ```
 
 ### 🌐 Browser
@@ -42,15 +42,15 @@ unicode.en('好'); // \u597d
 ```html
 <!-- ... other HTML ... -->
 
-<!-- load unicode。-->
-<script src="://unpkg.com/unicode" crossorigin></script>
+<!-- load unicd。-->
+<script src="://unpkg.com/unicd" crossorigin></script>
 
-<!-- use unicode。-->
+<!-- use unicd。-->
 <script>
-  window.Unicode.de('\ud83d\udc4d'); // 👍
-  window.Unicode.de('\u597d'); // 好
-  window.Unicode.en('👍'); // \ud83d\udc4d
-  window.Unicode.en('好'); // \u597d
+  window.unicd.de('\ud83d\udc4d'); // 👍
+  window.unicd.de('\u597d'); // 好
+  window.unicd.en('👍'); // \ud83d\udc4d
+  window.unicd.en('好'); // \u597d
 </script>
 
 ```
