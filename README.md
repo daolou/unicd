@@ -43,14 +43,14 @@ unicd.en('好'); // \u597d
 <!-- ... other HTML ... -->
 
 <!-- load unicd。-->
-<script src="://unpkg.com/unicd" crossorigin></script>
+<script src="://unpkg.com/unicd@latest/dist/index.umd.js" crossorigin></script>
 
 <!-- use unicd。-->
 <script>
-  window.unicd.de('\ud83d\udc4d'); // 👍
-  window.unicd.de('\u597d'); // 好
-  window.unicd.en('👍'); // \ud83d\udc4d
-  window.unicd.en('好'); // \u597d
+  window.Unicd.de('\ud83d\udc4d'); // 👍
+  window.Unicd.de('\u597d'); // 好
+  window.Unicd.en('👍'); // \ud83d\udc4d
+  window.Unicd.en('好'); // \u597d
 </script>
 
 ```
