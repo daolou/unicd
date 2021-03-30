@@ -1,6 +1,6 @@
 # unicode
 
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/daolou/unicode/master.svg?style=flat-square)](https://codecov.io/gh/daolou/unicode)[![Build Status](https://www.travis-ci.org/daolou/unicode.svg?branch=master)](https://www.travis-ci.org/daolou/unicode)![GitHub All Releases](https://img.shields.io/github/downloads/daolou/unicode/total)![NPM](https://img.shields.io/npm/l/unicode)
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/daolou/unicode/main.svg?style=flat-square)](https://codecov.io/gh/daolou/unicode)[![Build Status](https://www.travis-ci.org/daolou/unicode.svg?branch=main)](https://www.travis-ci.org/daolou/unicode)![GitHub All Releases](https://img.shields.io/github/downloads/daolou/unicode/total)![NPM](https://img.shields.io/npm/l/unicode)
 
 en/de unicode(unicode 与 utf 字符串转换)
 
