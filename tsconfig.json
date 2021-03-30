@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ES5", "ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
+    "outDir": "lib",
+    "strict": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@@/*": ["./*"], // 根目录别名
+      "@/*": ["./src/*"] // src 目录别名
+    },
+    "pretty": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*", "package.json", "test"],
+  "exclude": ["node_modules", "lib", "es", "dist"]
+}
