@@ -2,16 +2,35 @@
   "name": "unicode",
   "version": "1.0.0",
   "description": "en/de unicode(unicode 与 utf 字符串转换)",
-  "source": "./src/index.ts",
-  "main": "./dist/index.js",
+  "keywords": [
+    "unicode",
+    "enUnicode",
+    "deUnicode",
+    "utf",
+    "js",
+    "javascript"
+  ],
+  "homepage": "https://github.com/daolou/unicode#readme",
+  "bugs": {
+    "url": "https://github.com/daolou/unicode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daolou/unicode.git"
+  },
+  "license": "MIT",
+  "author": "jiangzhiguo2010",
   "exports": "./dist/index.modern.js",
-  "module": "./dist/index.module.js",
+  "main": "./dist/index.js",
   "umd:main": "./dist/index.umd.js",
+  "module": "./dist/index.module.js",
+  "source": "./src/index.ts",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
+    "prepare": "husky install",
     "test": "jest --coverage",
     "codecov": "codecov",
     "clear": "rimraf dist",
@@ -22,13 +41,6 @@
     "release": "standard-version",
     "np": "./scripts/publish.sh"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && npm test",
-      "prepare-commit-msg": "npx devmoji -e --lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "package.json": [
       "sort-package-json"
@@ -37,20 +49,6 @@
       "prettier --write"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daolou/unicode.git"
-  },
-  "keywords": [
-    "unicode",
-    "enUnicode",
-    "deUnicode",
-    "utf",
-    "js",
-    "javascript"
-  ],
-  "author": "jiangzhiguo2010",
-  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",
     "@commitlint/config-conventional": "^12.0.0",
@@ -61,7 +59,7 @@
     "devmoji": "^2.2.0",
     "eslint": "^7.20.0",
     "eslint-config-alloy": "^3.10.0",
-    "husky": "^5.1.1",
+    "husky": "^6.0.0",
     "jest": "^26.6.3",
     "lint-staged": "^10.5.4",
     "microbundle": "^0.13.0",
@@ -72,10 +70,6 @@
     "ts-jest": "^26.5.4",
     "typescript": "^4.2.2"
   },
-  "bugs": {
-    "url": "https://github.com/daolou/unicode/issues"
-  },
-  "homepage": "https://github.com/daolou/unicode#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
