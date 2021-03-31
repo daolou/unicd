@@ -21,7 +21,7 @@ function setNpmjs(){
 function compile(){
   echo "-------开始编译-------"
   printf '\t\n'
-  # npm run compile
+  npm run compile
   echo "-------结束编译-------"
   printf '\t\n'
 }
@@ -51,7 +51,7 @@ function isLogin(){
 function publish(){
   echo "-------开始发布-------"
   printf '\t\n'
-  # npm publish
+  npm publish
   echo "-------发布完成-------"
   printf '\t\n'
 }
