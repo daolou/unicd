@@ -1,6 +1,6 @@
 # unicode
 
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/daolou/unicd/main.svg)](https://codecov.io/gh/daolou/unicd)
+[![Codecov](https://codecov.io/gh/daolou/unicd/branch/main/graph/badge.svg?token=DRMMBP9VG8)](https://codecov.io/gh/daolou/unicd)
 [![Build Status](https://www.travis-ci.org/daolou/unicd.svg?branch=main)](https://www.travis-ci.org/daolou/unicd)
 [![Downloads](https://img.shields.io/npm/dt/unicd?logo=npm)](https://github.com/daolou/unicd#readme)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/unicd/latest?logo=npm)](https://www.npmjs.com/package/unicd)
