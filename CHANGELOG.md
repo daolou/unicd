@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/daolou/unicd/compare/v1.0.4...v1.0.5) (2021-03-31)
+
+
+### Bug Fixes
+
+* 🐛 publish.sh open compile&&publish ([55e9672](https://github.com/daolou/unicd/commit/55e9672c06d4dcef292036320f4b9a1b30990ee0))
+
 ### [1.0.4](https://github.com/daolou/unicd/compare/v1.0.3...v1.0.4) (2021-03-31)
 
 
