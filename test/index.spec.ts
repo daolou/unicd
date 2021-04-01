@@ -18,6 +18,7 @@ describe('unicd', () => {
     expect(unicd.de('\u26a1\ufe0f')).toEqual('⚡️');
     expect(unicd.de('\ud83c\udfa8')).toEqual('🎨');
     expect(unicd.de('\u597d')).toEqual('好');
+    expect(unicd.de('\u0031')).toEqual('1');
   });
 
   it('en should be done', () => {
@@ -37,5 +38,6 @@ describe('unicd', () => {
     expect(unicd.en('⚡️')).toEqual('\\u26a1\\ufe0f');
     expect(unicd.en('🎨')).toEqual('\\ud83c\\udfa8');
     expect(unicd.en('好')).toEqual('\\u597d');
+    expect(unicd.en('1')).toEqual('\\u0031');
   });
 });
